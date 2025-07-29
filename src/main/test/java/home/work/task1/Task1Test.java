@@ -14,13 +14,13 @@ class Task1Test {
     @DisplayName("Checks if MyUtils is public class")
     @Test
     public void isTypePublic() {
-        assertTrue(CreateNotebookTools.isTypePublic("com.softserve.edu.sprint4.task1.MyUtils"));
+        assertTrue(CreateNotebookTools.isTypePublic("home.work.task1.MyUtils"));
     }
 
     @DisplayName("Checks if createNotebook method is public in class MyUtils")
     @Test
     public void isMethodPublic() {
-        assertTrue(CreateNotebookTools.isMethodPublic("com.softserve.edu.sprint4.task1.MyUtils", "createNotebook"));
+        assertTrue(CreateNotebookTools.isMethodPublic("home.work.task1.MyUtils", "createNotebook"));
     }
 
     @DisplayName("Using unique names and phones in map")
