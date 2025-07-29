@@ -13,13 +13,13 @@ class Task2Test {
     @DisplayName("Checks if MyUtils is public class")
     @Test
     public void isTypePublic() {
-        assertTrue(CommonStudentsTools.isTypePublic("com.softserve.edu.sprint4.task2.MyUtils"));
+        assertTrue(CommonStudentsTools.isTypePublic("home.work.task2.MyUtils"));
     }
 
     @DisplayName("Checks if commonStudents method is public in class MyUtils")
     @Test
     public void isMethodPublic() {
-        assertTrue(CommonStudentsTools.isMethodPublic("com.softserve.edu.sprint4.task2.MyUtils", "commonStudents"));
+        assertTrue(CommonStudentsTools.isMethodPublic("home.work.task2.MyUtils", "commonStudents"));
     }
 
     @DisplayName("Using parameters without duplicate objects of Student")
