@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>home.work</groupId>
-    <artifactId>homeWork-Tasks</artifactId>
+    <artifactId>Arrays-Collection-Generic-Annotation</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
